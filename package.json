@@ -1,6 +1,6 @@
 {
   "name": "add-in",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "npx add-in feature to ServiceStack projects",
   "main": "lib/index.js",
   "bin": {
@@ -13,7 +13,12 @@
     "bump:major": "npm version major && git push origin main --follow-tags",
     "release": "gh release create v$(node -p \"require('./package.json').version\") --title v$(node -p \"require('./package.json').version\") --generate-notes"
   },
-  "keywords": ["servicestack", "mix", "gist", "cli"],
+  "keywords": [
+    "servicestack",
+    "mix",
+    "gist",
+    "cli"
+  ],
   "author": "ServiceStack",
   "license": "BSD-3-Clause",
   "repository": {
