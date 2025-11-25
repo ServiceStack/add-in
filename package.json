@@ -1,7 +1,7 @@
 {
-  "name": "@anthropic-custom/add-in",
-  "version": "1.0.0",
-  "description": "npx add-in feature - alternative to x mix dotnet tool",
+  "name": "add-in",
+  "version": "0.0.0",
+  "description": "npx add-in feature to ServiceStack projects",
   "main": "lib/index.js",
   "bin": {
     "add-in": "./bin/add-in.js"
