@@ -1,0 +1,30 @@
+{
+  "name": "@anthropic-custom/add-in",
+  "version": "1.0.0",
+  "description": "npx add-in feature - alternative to x mix dotnet tool",
+  "main": "lib/index.js",
+  "bin": {
+    "add-in": "./bin/add-in.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": ["servicestack", "mix", "gist", "cli"],
+  "author": "ServiceStack",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ServiceStack/add-in.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ServiceStack/add-in/issues"
+  },
+  "homepage": "https://github.com/ServiceStack/add-in#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ]
+}
