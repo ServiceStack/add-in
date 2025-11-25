@@ -5,7 +5,7 @@ const { parseGistLinks } = require('../lib/index.js');
 console.log('Testing parseGistLinks...');
 
 const testMd = `
-# Mix Registry
+# Add-in Registry
 
  - [init](https://gist.github.com/gistlyn/58030e271595520d87873c5df5e14f60) {} \`project,sharp,ss\` Empty .NET 6.0 ServiceStack App
  - [redis](https://gist.github.com/gistlyn/67d6c72fba8e07c4aeb82d3bb6bfef0f) {to:"$HOST"} \`db\` Use ServiceStack.Redis

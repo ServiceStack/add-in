@@ -32,4 +32,4 @@ jobs:
       - name: Verify bin script is executable
         run: |
           chmod +x bin/add-in.js
-          node bin/add-in.js 2>&1 | grep -q "Usage: npx add-in"
+          node bin/add-in.js --help 2>&1 | grep -q "Simple Usage:"
