@@ -6,8 +6,8 @@ const tool = 'add-in';
 const args = process.argv.slice(2);
 
 mix(tool, args)
-    .then(result => {
-        process.exit(result ? 0 : 0);
+    .then(() => {
+        // Successful completion naturally exits with code 0
     })
     .catch(err => {
         console.error(err.message);
